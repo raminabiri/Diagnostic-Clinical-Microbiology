@@ -45,6 +45,13 @@ Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidas
   12/02 — nothing merged. Intrinsic-resistance table (01, table 7) transcribed from CLSI M100-Ed36
   Appendix B1 text; Salmonella/Shigella AST rule checked against Table 2A note (fecal NTS: no routine AST).
   Appendix B parsing: `pdftotext -layout`, then map R marks by column START position (rotated headers).
+- **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
+  and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
+  (484 entries). For families 18–24 read old notes from it, e.g.
+  `tar xzf <backup> -C <scratchpad> 19_Anaerobes/02_Tests`. Still unreviewed inside it: the zips
+  `18_Fastidious_GNR/Fastidious_Bacteria_02_Tests_Detailed_MD.zip` and
+  `21_Chlamydia_Mycoplasma/Chlamydia_Mycoplasma_Rickettsia_02_Tests_Detailed_MD.zip`.
+  `10-quality-contro/` (tracked, 1-byte README) kept as the module 10 slot.
 - **Folder names fixed by forward links (use exactly these):** `18_Oxidase_Positive_Fermenters`, `19_Non_Fermenters`,
   `20_Fastidious_GNB`, `22_Anaerobes`, `23_Mycobacteria`. Checker reports these as BROKEN until built.
 - Mermaid blocks and all relative links in the new folders validated (0 broken, 0 parentheses in
@@ -103,7 +110,7 @@ Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidas
 1. ~~Write `15_Aerobic_GPB/05_Answers.md`~~ — done 2026-10-14, checker clean.
 2. ~~Commit the new layers~~ — committed and pushed 2026-10-14 (`797247c`).
 3. ~~`16_Gram_Negative_Cocci`~~ — done and pushed 2026-10-14.
-4. ~~`17_Enterobacterales`~~ — done 2026-10-14, committed locally, push pending user OK.
+4. ~~`17_Enterobacterales`~~ — done and pushed 2026-10-14 (`a67f817`).
 5. `18_Oxidase_Positive_Fermenters` (Vibrio, Aeromonas, Plesiomonas, Pasteurella) — old 16 is empty.
 6. `19_Non_Fermenters` — merge old `15_Non_Fermenting_Gram_Negative_Bacilli/02_Tests` (25 files).
 7. `20_Fastidious_GNB` (Haemophilus, HACEK, Bordetella, Brucella, Legionella, Francisella) —
@@ -114,5 +121,5 @@ Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidas
     review the zip in old 21, old 22 empty).
 11. Fill `Shared/Algorithms/*.md` (all four are 0 bytes) as cross-family master flowcharts, or delete
     them if the family modules cover it.
-12. Ask the user to approve deleting old `11_Gram_Positive_Cocci` … `22_Spirochetes`; then delete.
+12. ~~Delete old 11–22 folders~~ — done 2026-10-14 (backup tarball, see section 2).
 13. Module `10` (shared QC reference) — still untouched.
