@@ -222,7 +222,7 @@
 | *M. catarrhalis* | − | − | − | − |
 
 - **QC:** *N. gonorrhoeae* ATCC 43069 (گلوکز +)؛ *N. meningitidis* ATCC 13090 (گلوکز +، مالتوز +)؛ *M. catarrhalis* ATCC 25238 (همه −).
-- جزئیات ← ماژول خانوادهٔ کوکسی‌های گرم منفی.
+- جزئیات ← [16_Gram_Negative_Cocci](../16_Gram_Negative_Cocci/01_Differential_Tables.md).
 
 ---
 

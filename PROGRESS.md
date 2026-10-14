@@ -13,7 +13,7 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: push the layer 11–15 commit (user OK pending), then build families 16–24.
+Immediate task: `16_Gram_Negative_Cocci` done 2026-10-14; next family is 17 (Enterobacterales).
 
 ## 2. Done so far
 - **Modules 01–09** (specimen-based) fully built on `Shared/Templates/Specimen_Module_Template.md`:
@@ -36,6 +36,12 @@ Immediate task: push the layer 11–15 commit (user OK pending), then build fami
   (README + 01–06), `13_GPC_Catalase_Positive` (complete), `14_GPC_Catalase_Negative` (complete),
   `15_Aerobic_GPB` (complete; `05_Answers.md` written 2026-10-14 in two pieces, no interruption),
   `Shared/Templates/Family_Module_Template.md`.
+- **`16_Gram_Negative_Cocci`** (2026-10-14): README + 01–05 complete. Old `13_Gram_Negative_Cocci`
+  reviewed: all files 0 bytes except `02_Tests` (14 generic test notes, no numbers); every topic was
+  already in libraries 11/12 (Superoxol = 12/02 §2.10), so nothing needed merging.
+  `11_Culture_Media/08` §8.14 now links to it.
+- **Folder names fixed by forward links (use exactly these):** `19_Non_Fermenters`,
+  `20_Fastidious_GNB`, `22_Anaerobes`, `23_Mycobacteria`. Checker reports these as BROKEN until built.
 - Mermaid blocks and all relative links in the new folders validated (0 broken, 0 parentheses in
   node labels). Reusable checker: `<scratchpad>/chk.py '15_*/*.md'` (recreated 2026-10-14; scratchpad is per-session,
   so recreate it if missing). Only expected failures: `15_Aerobic_GPB/README.md` forward links to
@@ -90,8 +96,8 @@ Immediate task: push the layer 11–15 commit (user OK pending), then build fami
 
 ## 6. Next steps (priority order, one session each)
 1. ~~Write `15_Aerobic_GPB/05_Answers.md`~~ — done 2026-10-14, checker clean.
-2. ~~Commit the new layers~~ — committed locally 2026-10-14 (not yet pushed; awaiting user OK).
-3. `16_GNC` (Neisseria, Moraxella) — merge useful content from old `13_Gram_Negative_Cocci/02_Tests`.
+2. ~~Commit the new layers~~ — committed and pushed 2026-10-14 (`797247c`).
+3. ~~`16_Gram_Negative_Cocci`~~ — done 2026-10-14, committed locally, push pending user OK.
 4. `17_Enterobacterales` — merge old `14_Enterobacterales/02_Tests` (28 files, the richest old set).
 5. `18_Oxidase_Positive_Fermenters` (Vibrio, Aeromonas, Plesiomonas, Pasteurella) — old 16 is empty.
 6. `19_Non_Fermenters` — merge old `15_Non_Fermenting_Gram_Negative_Bacilli/02_Tests` (25 files).
