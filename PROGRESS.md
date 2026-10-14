@@ -13,7 +13,7 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: `16_Gram_Negative_Cocci` done 2026-10-14; next family is 17 (Enterobacterales).
+Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidase-positive fermenters).
 
 ## 2. Done so far
 - **Modules 01–09** (specimen-based) fully built on `Shared/Templates/Specimen_Module_Template.md`:
@@ -40,7 +40,12 @@ Immediate task: `16_Gram_Negative_Cocci` done 2026-10-14; next family is 17 (Ent
   reviewed: all files 0 bytes except `02_Tests` (14 generic test notes, no numbers); every topic was
   already in libraries 11/12 (Superoxol = 12/02 §2.10), so nothing needed merging.
   `11_Culture_Media/08` §8.14 now links to it.
-- **Folder names fixed by forward links (use exactly these):** `19_Non_Fermenters`,
+- **`17_Enterobacterales`** (2026-10-14): README + 01–05 complete. Old `14_Enterobacterales`: 19 empty
+  files + 28 one-page generic test notes in `02_Tests`, all already covered by 11/02, 11/04, 11/08 and
+  12/02 — nothing merged. Intrinsic-resistance table (01, table 7) transcribed from CLSI M100-Ed36
+  Appendix B1 text; Salmonella/Shigella AST rule checked against Table 2A note (fecal NTS: no routine AST).
+  Appendix B parsing: `pdftotext -layout`, then map R marks by column START position (rotated headers).
+- **Folder names fixed by forward links (use exactly these):** `18_Oxidase_Positive_Fermenters`, `19_Non_Fermenters`,
   `20_Fastidious_GNB`, `22_Anaerobes`, `23_Mycobacteria`. Checker reports these as BROKEN until built.
 - Mermaid blocks and all relative links in the new folders validated (0 broken, 0 parentheses in
   node labels). Reusable checker: `<scratchpad>/chk.py '15_*/*.md'` (recreated 2026-10-14; scratchpad is per-session,
@@ -97,8 +102,8 @@ Immediate task: `16_Gram_Negative_Cocci` done 2026-10-14; next family is 17 (Ent
 ## 6. Next steps (priority order, one session each)
 1. ~~Write `15_Aerobic_GPB/05_Answers.md`~~ — done 2026-10-14, checker clean.
 2. ~~Commit the new layers~~ — committed and pushed 2026-10-14 (`797247c`).
-3. ~~`16_Gram_Negative_Cocci`~~ — done 2026-10-14, committed locally, push pending user OK.
-4. `17_Enterobacterales` — merge old `14_Enterobacterales/02_Tests` (28 files, the richest old set).
+3. ~~`16_Gram_Negative_Cocci`~~ — done and pushed 2026-10-14.
+4. ~~`17_Enterobacterales`~~ — done 2026-10-14, committed locally, push pending user OK.
 5. `18_Oxidase_Positive_Fermenters` (Vibrio, Aeromonas, Plesiomonas, Pasteurella) — old 16 is empty.
 6. `19_Non_Fermenters` — merge old `15_Non_Fermenting_Gram_Negative_Bacilli/02_Tests` (25 files).
 7. `20_Fastidious_GNB` (Haemophilus, HACEK, Bordetella, Brucella, Legionella, Francisella) —
