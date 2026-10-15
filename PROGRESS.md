@@ -13,7 +13,8 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: `20_Fastidious_GNB` done 2026-10-15 (committed locally, push pending user OK).
+Immediate task: `21_Curved_GNB` done 2026-10-15 (committed locally, push pending user OK).
+Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
 
@@ -63,6 +64,9 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
   (11 generic notes, ~9 KB) added nothing. *Brucella* serology (Rose Bengal, Wright, 2-ME, Coombs)
   lives in 20/01 table 5 because the tests library has no serology section for it. *Brucella*/
   *Francisella* text kept short and procedural; no classifier interruptions. M45 numbers not written.
+- **`21_Curved_GNB`** (2026-10-15): README + 01–05 complete (*Campylobacter*, *Helicobacter*,
+  *Arcobacter*). Old 16 notes generic. AST numbers deliberately NOT repeated — links to
+  `04_Gastrointestinal/03_Antibiogram/*` (single source). `11_Culture_Media/04` §الف۹ now links here.
 - **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
   and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
   (484 entries). For families 18–24 read old notes from it, e.g.
@@ -131,8 +135,8 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 4. ~~`17_Enterobacterales`~~ — done and pushed 2026-10-14 (`a67f817`).
 5. ~~`18_Oxidase_Positive_Fermenters`~~ — done and pushed 2026-10-15.
 6. ~~`19_Non_Fermenters`~~ — done and pushed 2026-10-15.
-7. ~~`20_Fastidious_GNB`~~ — done 2026-10-15, committed locally, push pending user OK.
-8. `21_Curved` (Campylobacter, Helicobacter) — merge old `17_*/02_Tests` (16 files).
+7. ~~`20_Fastidious_GNB`~~ — done and pushed 2026-10-15.
+8. ~~`21_Curved_GNB`~~ — done 2026-10-15, committed locally, push pending user OK.
 9. `22_Anaerobes` — merge old `19_Anaerobes/02_Tests` (32 files).
 10. `23_Mycobacteria` (old 20 empty) and `24_Non_Culturable` (Chlamydia, Mycoplasma, spirochetes;
     review the zip in old 21, old 22 empty).
