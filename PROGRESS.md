@@ -13,7 +13,9 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidase-positive fermenters).
+Immediate task: `18_Oxidase_Positive_Fermenters` built 2026-10-15 by the scheduled auto-run (committed
+locally, **not pushed** — awaiting user review/OK). Next family is 19 (non-fermenters); do not start
+it without the user.
 
 ## 2. Done so far
 - **Modules 01–09** (specimen-based) fully built on `Shared/Templates/Specimen_Module_Template.md`:
@@ -45,6 +47,11 @@ Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidas
   12/02 — nothing merged. Intrinsic-resistance table (01, table 7) transcribed from CLSI M100-Ed36
   Appendix B1 text; Salmonella/Shigella AST rule checked against Table 2A note (fecal NTS: no routine AST).
   Appendix B parsing: `pdftotext -layout`, then map R marks by column START position (rotated headers).
+- **`18_Oxidase_Positive_Fermenters`** (2026-10-15, scheduled auto-run): README + 01–05 complete
+  (*Vibrio*, *Aeromonas*, *Plesiomonas*, *Pasteurella*; look-alikes *Chromobacterium*, *Shewanella*).
+  CLSI M100-Ed36 has no breakpoints for these (refers to M45, lines ~1634 and ~5164 of the pdftotext
+  extract) → no M45 numbers written; flagged in 03 §5 as not yet verified. *Plesiomonas* not mentioned
+  in M100 at all.
 - **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
   and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
   (484 entries). For families 18–24 read old notes from it, e.g.
@@ -111,7 +118,7 @@ Immediate task: `17_Enterobacterales` done 2026-10-14; next family is 18 (oxidas
 2. ~~Commit the new layers~~ — committed and pushed 2026-10-14 (`797247c`).
 3. ~~`16_Gram_Negative_Cocci`~~ — done and pushed 2026-10-14.
 4. ~~`17_Enterobacterales`~~ — done and pushed 2026-10-14 (`a67f817`).
-5. `18_Oxidase_Positive_Fermenters` (Vibrio, Aeromonas, Plesiomonas, Pasteurella) — old 16 is empty.
+5. ~~`18_Oxidase_Positive_Fermenters`~~ — done 2026-10-15, committed locally, push pending user OK.
 6. `19_Non_Fermenters` — merge old `15_Non_Fermenting_Gram_Negative_Bacilli/02_Tests` (25 files).
 7. `20_Fastidious_GNB` (Haemophilus, HACEK, Bordetella, Brucella, Legionella, Francisella) —
    unzip and review `18_Fastidious_GNR/.../*.zip` first.
