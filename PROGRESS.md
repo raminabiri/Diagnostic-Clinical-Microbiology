@@ -70,6 +70,9 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 - **`22_Anaerobes`** (2026-10-15): README + 01–05 complete. Old 32 notes generic. Anaerobe AST numbers
   (CLSI 2J / EUCAST) only cited from the verified `AST/05` section; *C. difficile* algorithm linked to
   `04_Gastrointestinal/02_Protocol/05`. *C. botulinum* = refer toxin testing, no culture.
+- **`23_Mycobacteria`** (2026-10-15): README + 01–05 complete (ID-focused: MTBC vs NTM, Runyon, NTM
+  significance criteria, cross-contamination, BCG). AST content links to `AST/06` (M24S/WHO numbers
+  there still flagged unverified; no new numbers written in 23).
 - **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
   and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
   (484 entries). For families 18–24 read old notes from it, e.g.
@@ -141,8 +144,8 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 7. ~~`20_Fastidious_GNB`~~ — done and pushed 2026-10-15.
 8. ~~`21_Curved_GNB`~~ — done 2026-10-15, committed locally (push at end of 22–24 batch).
 9. ~~`22_Anaerobes`~~ — done 2026-10-15, committed locally (push at end of batch).
-10. `23_Mycobacteria` (old 20 empty) and `24_Non_Culturable` (Chlamydia, Mycoplasma, spirochetes;
-    review the zip in old 21, old 22 empty).
+10. ~~`23_Mycobacteria`~~ — done 2026-10-15, committed locally (push at end of batch).
+    `24_Non_Culturable` (Chlamydia, Mycoplasma, spirochetes; review the zip in old 21, old 22 empty).
 11. Fill `Shared/Algorithms/*.md` (all four are 0 bytes) as cross-family master flowcharts, or delete
     them if the family modules cover it.
 12. ~~Delete old 11–22 folders~~ — done 2026-10-14 (backup tarball, see section 2).
