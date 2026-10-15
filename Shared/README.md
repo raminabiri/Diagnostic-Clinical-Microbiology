@@ -17,5 +17,3 @@
 | **۱۲** | کتابخانهٔ **تست‌های شناسایی** (هر تست یک بار؛ مولکولی جدا) |
 | **۱۳–۲۴** | ماژول‌های **خانواده** (جدول افتراقی، فلوچارت، دام‌ها، سناریو) |
 | **AST** | آزمون حساسیت ضدمیکروبی (CLSI M100-Ed36، EUCAST v16.1، IDSA 2026) |
-
-> فایل‌های خالیِ رزروشده (هنوز بدون محتوا): `References/Core_Guidelines.md`، `References/Core_Textbooks.md`، `Templates/Figure_Template.md`، `Templates/Organism_Template.md`، `Templates/QC_Template.md`، `Templates/Self_Assessment_Template.md`، `Templates/Test_Template.md`.

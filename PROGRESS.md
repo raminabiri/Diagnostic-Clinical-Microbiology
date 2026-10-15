@@ -14,7 +14,8 @@ such as TSI across families) with a **three-layer structure** the user approved 
    linking back to layers 1–2 and to `AST/`.
 
 Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Steps 11 and 13 done and pushed 2026-10-15. All planned modules are now built.
-Open items: see section 5 (verification flags, empty root files, Iran antibiogram placeholders).
+Cleanup 2026-10-15: deleted 9 empty/obsolete untracked files (old Shared templates/references, empty
+LICENSE, empty .Rhistory); wrote root README.md, CONTRIBUTING.md, CITATION.cff. Open items: section 5.
 Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
@@ -139,7 +140,13 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 - `AST/13_References.md` items 24–33 (reviews/textbooks) were written from memory; edition and page
   numbers need checking before formal citation.
 - `03_Antibiogram/04_Iran_Reference.md` in all of 01–09 is still a placeholder framework.
-- Root `README.md`, `LICENSE`, `CITATION.cff`, `CONTRIBUTING.md` are still empty.
+- (Resolved 2026-10-15) Root README/CONTRIBUTING/CITATION written. **LICENSE deliberately not created** —
+  license choice is the user's (suggested: CC BY-NC-SA 4.0 for educational text). CITATION author name
+  «Ramin Abiri» inferred from the GitHub handle — user to confirm.
+- Two local PDFs `CLSI 2026.pdf` (18.6 MB, re-saved Aug 2026) and `CLSI 2026 (1).pdf` (58.9 MB, original;
+  used for pdftotext) are the same document but NOT byte-identical — both kept (one may hold user notes).
+- Backup tarball of old 11–22 still at `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`;
+  all its content has been reviewed (nothing needed merging) → safe to delete if the user wants.
 
 ## 6. Next steps (priority order, one session each)
 1. ~~Write `15_Aerobic_GPB/05_Answers.md`~~ — done 2026-10-14, checker clean.

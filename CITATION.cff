@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "Diagnostic Clinical Microbiology: a Persian teaching handbook of diagnostic clinical bacteriology"
+type: software
+authors:
+  - family-names: Abiri
+    given-names: Ramin
+repository-code: "https://github.com/raminabiri/Diagnostic-Clinical-Microbiology"
+date-released: 2026-10-15
+keywords:
+  - clinical microbiology
+  - diagnostic bacteriology
+  - antimicrobial susceptibility testing
+  - CLSI
+  - EUCAST
+  - Persian
+  - medical education
