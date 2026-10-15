@@ -13,8 +13,8 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Remaining: steps 11 and 13
-(Shared/Algorithms, module 10 QC) — ask the user before starting either.
+Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Step 11 done 2026-10-15 (local commit).
+Now: step 13 (module 10 QC), user approved 2026-10-15; push both together at the end.
 Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
@@ -149,10 +149,11 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 5. ~~`18_Oxidase_Positive_Fermenters`~~ — done and pushed 2026-10-15.
 6. ~~`19_Non_Fermenters`~~ — done and pushed 2026-10-15.
 7. ~~`20_Fastidious_GNB`~~ — done and pushed 2026-10-15.
-8. ~~`21_Curved_GNB`~~ — done 2026-10-15, done and pushed 2026-10-15.
-9. ~~`22_Anaerobes`~~ — done 2026-10-15, done and pushed 2026-10-15.
+8. ~~`21_Curved_GNB`~~ — done and pushed 2026-10-15.
+9. ~~`22_Anaerobes`~~ — done and pushed 2026-10-15.
 10. ~~`23_Mycobacteria`~~ and ~~`24_Non_Culturable`~~ — done and pushed 2026-10-15.
-11. Fill `Shared/Algorithms/*.md` (all four are 0 bytes) as cross-family master flowcharts, or delete
-    them if the family modules cover it.
+11. ~~`Shared/Algorithms`~~ — done 2026-10-15: README + 4 router masters (Gram stain → family module),
+    plus `Shared/README.md` index. 7 empty placeholders in `Shared/References` and `Shared/Templates`
+    remain untracked (listed in `Shared/README.md`).
 12. ~~Delete old 11–22 folders~~ — done 2026-10-14 (backup tarball, see section 2).
 13. Module `10` (shared QC reference) — still untouched.
