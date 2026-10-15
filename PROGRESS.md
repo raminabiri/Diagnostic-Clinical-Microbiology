@@ -13,8 +13,8 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Step 11 done 2026-10-15 (local commit).
-Now: step 13 (module 10 QC), user approved 2026-10-15; push both together at the end.
+Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Steps 11 and 13 done and pushed 2026-10-15. All planned modules are now built.
+Open items: see section 5 (verification flags, empty root files, Iran antibiogram placeholders).
 Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
@@ -86,7 +86,7 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
   `tar xzf <backup> -C <scratchpad> 19_Anaerobes/02_Tests`. Still unreviewed inside it: the zips
   `18_Fastidious_GNR/Fastidious_Bacteria_02_Tests_Detailed_MD.zip` and
   `21_Chlamydia_Mycoplasma/Chlamydia_Mycoplasma_Rickettsia_02_Tests_Detailed_MD.zip`.
-  `10-quality-contro/` (tracked, 1-byte README) kept as the module 10 slot.
+  Module 10 folder is now `10_Quality_Control/`.
 - **Folder names fixed by forward links (use exactly these):** `18_Oxidase_Positive_Fermenters`, `19_Non_Fermenters`, `21_Curved_GNB`,
   `20_Fastidious_GNB`, `22_Anaerobes`, `23_Mycobacteria`. Checker reports these as BROKEN until built.
 - Mermaid blocks and all relative links in the new folders validated (0 broken, 0 parentheses in
@@ -156,4 +156,9 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
     plus `Shared/README.md` index. 7 empty placeholders in `Shared/References` and `Shared/Templates`
     remain untracked (listed in `Shared/README.md`).
 12. ~~Delete old 11–22 folders~~ — done 2026-10-14 (backup tarball, see section 2).
-13. Module `10` (shared QC reference) — still untouched.
+13. ~~Module `10`~~ — done and pushed 2026-10-15: folder renamed `10-quality-contro` → `10_Quality_Control`
+    (git mv); README + 01 framework, 02 consolidated QC strain list (all ATCC/NCTC/DSM strains used in
+    the repo, each linked to its source file), 03 equipment/environment, 04 indicators/EQA/critical
+    values, 05–06 scenarios/answers. Cross-cutting only: per-medium/test/AST/specimen QC stays in place
+    and is linked. «ماژول ۱۰» mentions in 01, 03, 11 now link here. McFarland 0.08–0.13 @625 nm
+    flagged as unverified (CLSI M02 not in repo).
