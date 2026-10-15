@@ -13,7 +13,7 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: `21_Curved_GNB` done 2026-10-15 (committed locally, push pending user OK).
+Immediate task: user (2026-10-15) asked to build 22, 23, 24 and push ONCE at the end. 21 committed, not pushed.
 Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
@@ -67,6 +67,9 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 - **`21_Curved_GNB`** (2026-10-15): README + 01–05 complete (*Campylobacter*, *Helicobacter*,
   *Arcobacter*). Old 16 notes generic. AST numbers deliberately NOT repeated — links to
   `04_Gastrointestinal/03_Antibiogram/*` (single source). `11_Culture_Media/04` §الف۹ now links here.
+- **`22_Anaerobes`** (2026-10-15): README + 01–05 complete. Old 32 notes generic. Anaerobe AST numbers
+  (CLSI 2J / EUCAST) only cited from the verified `AST/05` section; *C. difficile* algorithm linked to
+  `04_Gastrointestinal/02_Protocol/05`. *C. botulinum* = refer toxin testing, no culture.
 - **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
   and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
   (484 entries). For families 18–24 read old notes from it, e.g.
@@ -136,8 +139,8 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 5. ~~`18_Oxidase_Positive_Fermenters`~~ — done and pushed 2026-10-15.
 6. ~~`19_Non_Fermenters`~~ — done and pushed 2026-10-15.
 7. ~~`20_Fastidious_GNB`~~ — done and pushed 2026-10-15.
-8. ~~`21_Curved_GNB`~~ — done 2026-10-15, committed locally, push pending user OK.
-9. `22_Anaerobes` — merge old `19_Anaerobes/02_Tests` (32 files).
+8. ~~`21_Curved_GNB`~~ — done 2026-10-15, committed locally (push at end of 22–24 batch).
+9. ~~`22_Anaerobes`~~ — done 2026-10-15, committed locally (push at end of batch).
 10. `23_Mycobacteria` (old 20 empty) and `24_Non_Culturable` (Chlamydia, Mycoplasma, spirochetes;
     review the zip in old 21, old 22 empty).
 11. Fill `Shared/Algorithms/*.md` (all four are 0 bytes) as cross-family master flowcharts, or delete
