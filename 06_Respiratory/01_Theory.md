@@ -22,7 +22,7 @@
 | **فیبروز کیستیک** | *S. aureus* (کودکی)، *H. influenzae*، ***P. aeruginosa* (موکوئید)**، ***Burkholderia cepacia* complex**، *S. maltophilia*، *Achromobacter*، **NTM** (*M. abscessus*، MAC) |
 | **برونشکتازی غیر CF** | *H. influenzae*، *P. aeruginosa*، *M. catarrhalis*، NTM |
 | **تشدید COPD** | *H. influenzae*، *S. pneumoniae*، *M. catarrhalis*، (*P. aeruginosa* در شدید) |
-| **سل ریوی** | *M. tuberculosis* (ماژول ۲۰) |
+| **سل ریوی** | *M. tuberculosis* ([ماژول ۲۳](../23_Mycobacteria/README.md)) |
 | **نوکاردیوز ریوی** | *Nocardia* (نقص ایمنی سلولی، کورتیکواستروئید) |
 | **پنومونی در نقص ایمنی** | همه موارد بالا + *Legionella*، *Nocardia*، *Rhodococcus*، NTM، (*Pneumocystis*، قارچ‌ها) |
 | **سیاه‌زخم استنشاقی، طاعون، تولارمی** | ☣️ عوامل بیوتروریسم (آزمایشگاه نگهبان) |

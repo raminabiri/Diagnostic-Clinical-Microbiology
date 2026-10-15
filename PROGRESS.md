@@ -13,7 +13,8 @@ such as TSI across families) with a **three-layer structure** the user approved 
    differential tables + Mermaid flowcharts + pitfalls/reporting + 10 scenarios + answers,
    linking back to layers 1–2 and to `AST/`.
 
-Immediate task: user (2026-10-15) asked to build 22, 23, 24 and push ONCE at the end. 21 committed, not pushed.
+Immediate task: family modules 13–24 ALL DONE and pushed 2026-10-15. Remaining: steps 11 and 13
+(Shared/Algorithms, module 10 QC) — ask the user before starting either.
 Next family is 22 (`22_Anaerobes`; old `19_Anaerobes/02_Tests` has 32 files in the backup).
 Next family is 21 (`21_Curved_GNB`: Campylobacter, Helicobacter, Arcobacter).
 Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball first).
@@ -73,6 +74,12 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 - **`23_Mycobacteria`** (2026-10-15): README + 01–05 complete (ID-focused: MTBC vs NTM, Runyon, NTM
   significance criteria, cross-contamination, BCG). AST content links to `AST/06` (M24S/WHO numbers
   there still flagged unverified; no new numbers written in 23).
+- **`24_Non_Culturable`** (2026-10-15): README + 01–05 (Chlamydia, Mycoplasma/Ureaplasma, Rickettsia,
+  Coxiella, T. pallidum, Borrelia incl. *B. persica*, Leptospira). Full syphilis serology (traditional
+  and reverse algorithms) lives here (01 tables 2–3, 02 flowchart 1). Old zip notes generic.
+  Mermaid subgraphs use ASCII IDs (`subgraph S1[عنوان فارسی]`).
+- **Old-numbering references fixed (2026-10-15):** 16 prose mentions «ماژول ۲۰/۲۱/۲۲» in modules
+  02, 05, 06, 07 now link to `23_Mycobacteria` / `24_Non_Culturable`. Whole-repo checker: 0 issues.
 - **Old organism folders deleted 2026-10-14 (user request):** `11_Gram_Positive_Cocci` … `22_Spirochetes`
   and empty `Data/` (all were untracked). **Full backup:** `/data/clinical_microbiology_old_modules_backup_2026-10-14.tar.gz`
   (484 entries). For families 18–24 read old notes from it, e.g.
@@ -142,10 +149,9 @@ Next family is 20 (`20_Fastidious_GNB`; review the zip in the backup tarball fir
 5. ~~`18_Oxidase_Positive_Fermenters`~~ — done and pushed 2026-10-15.
 6. ~~`19_Non_Fermenters`~~ — done and pushed 2026-10-15.
 7. ~~`20_Fastidious_GNB`~~ — done and pushed 2026-10-15.
-8. ~~`21_Curved_GNB`~~ — done 2026-10-15, committed locally (push at end of 22–24 batch).
-9. ~~`22_Anaerobes`~~ — done 2026-10-15, committed locally (push at end of batch).
-10. ~~`23_Mycobacteria`~~ — done 2026-10-15, committed locally (push at end of batch).
-    `24_Non_Culturable` (Chlamydia, Mycoplasma, spirochetes; review the zip in old 21, old 22 empty).
+8. ~~`21_Curved_GNB`~~ — done 2026-10-15, done and pushed 2026-10-15.
+9. ~~`22_Anaerobes`~~ — done 2026-10-15, done and pushed 2026-10-15.
+10. ~~`23_Mycobacteria`~~ and ~~`24_Non_Culturable`~~ — done and pushed 2026-10-15.
 11. Fill `Shared/Algorithms/*.md` (all four are 0 bytes) as cross-family master flowcharts, or delete
     them if the family modules cover it.
 12. ~~Delete old 11–22 folders~~ — done 2026-10-14 (backup tarball, see section 2).

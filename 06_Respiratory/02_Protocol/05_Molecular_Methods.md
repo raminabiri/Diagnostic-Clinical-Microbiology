@@ -10,7 +10,7 @@
 | **PCR *B. pertussis*** (IS481 ± IS1001، IS1002، *ptxP*) | **روش انتخابی** در ۰–۴ هفتهٔ اول سرفه |
 | PCR *M. pneumoniae* (± **جهش 23S rRNA** مقاومت ماکرولید) | روش انتخابی |
 | PCR *C. pneumoniae*، *Legionella* (همهٔ گونه‌ها و سروگروه‌ها) | مکمل آنتی‌ژن ادراری و کشت |
-| **Xpert MTB/RIF Ultra** | **آزمون اولیه** TB ریوی (WHO)؛ ماژول ۲۰ |
+| **Xpert MTB/RIF Ultra** | **آزمون اولیه** TB ریوی (WHO)؛ [ماژول ۲۳](../../23_Mycobacteria/README.md) |
 | **پنل پنومونی** (مثلاً BioFire Pneumonia Panel) | BAL/خلط/ETA در بیماران بستری شدید |
 | PCR *tox* دیفتری | سریع؛ تأیید Elek |
 | PCR *F. necrophorum* | فارنژیت جوانان، لمیر |
@@ -56,7 +56,7 @@
 ## ۶. تشخیص مولکولی سل (اشاره)
 - Xpert MTB/RIF Ultra روی خلط (اولین نمونه)؛ Xpert MTB/XDR (INH، فلوروکینولون، آمینوگلیکوزید)
 - LPA (Line probe)، WGS در مرجع
-- جزئیات: ماژول ۲۰
+- جزئیات: [ماژول ۲۳](../../23_Mycobacteria/README.md)
 
 ## ۷. گزارش
 - «DNA *B. pertussis* (IS481 و *ptxP*) شناسایی شد.» 📞 + بهداشت
